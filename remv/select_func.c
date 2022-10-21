@@ -19,7 +19,7 @@ int i;
 
 /**
  * selector - struct type struct_t
- *
+ * 
  **/
 
 struct_t selector[] = {
@@ -28,11 +28,6 @@ struct_t selector[] = {
 {"%d", printint},
 {"%i", printint},
 {"%%", print_percent},
-{"%b", print_binary},
-{"%o", print_octal},
-{"%x", print_hex_low},
-{"%X", print_hex_upper},
-{"%u", print_uint},
 {NULL, NULL}
 };
 

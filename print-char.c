@@ -2,9 +2,9 @@
 
 /**
  * print_char - prints a char.
- * @pa: format of char.
+ * @v_list: format of char.
  * @format: format
- * 
+ *
  * Return: int
  */
 int print_char(char *format, va_list v_list)
